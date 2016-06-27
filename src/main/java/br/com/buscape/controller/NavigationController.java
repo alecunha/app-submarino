@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.buscape.service.NavigationService;
 
-@RestController//(value="/navegacao")
+@RestController
 public class NavigationController {
 
 	@Autowired

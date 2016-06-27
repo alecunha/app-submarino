@@ -52,4 +52,9 @@ public class Position {
 		this.direction = direction;
 	}
 	
+	@Override
+	public String toString() {
+		return x + " " + y + " " + z + " " + direction;
+	}
+	
 }

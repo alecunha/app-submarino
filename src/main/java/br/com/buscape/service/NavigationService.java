@@ -1,10 +1,13 @@
 package br.com.buscape.service;
 
+import org.springframework.stereotype.Service;
+
 import br.com.buscape.enumtype.CardinalPointEnum;
 import br.com.buscape.enumtype.CommandEnum;
 import br.com.buscape.model.Position;
 import br.com.buscape.model.Role;
 
+@Service
 public class NavigationService {
 
 	private Role role = new Role();
